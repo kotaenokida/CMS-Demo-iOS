@@ -1,6 +1,6 @@
-#CMS Demo for iOS
+# CMS Demo for iOS
 
-#####A repository showing off basic CMS capability with KudanAR.
+A repository showing off basic CMS capability with KudanAR.
 
 The aim of this project is to show that the KudanAR framework is completely CMS agnostic. As such we have written the app to read a simple JSON file from a server.  
 
@@ -10,17 +10,16 @@ This sample implementation shows off displaying video content on top of markers 
 
 Multiple marker sets can be loaded by KudanAR. A marker set can be updated independently to the other marker sets.
 
-In order for this sample project to work you will need to:
-
+## Instructions
 1. Clone the repo
-2. Download the appropriate KudanAR framework from the [Kudan website](https://www.kudan.eu/download-sdk/)
-3. Put **KudanAR.framework** into the project's root directory
+2. Download the appropriate KudanAR framework from the [Kudan website](https://www.xlsoft.com/en/products/kudan/download.html)
+3. Put `KudanAR.framework` into the project's root directory
 4. Upload the assets contained within the `CMS Content` to your own server and alter the assets as you wish.
 5. Open `CMSNetworking.h` and update the value of `kJSONURL` on line `6` to that of your own server.
 6. Alternatively, to test the app with content from Kudan's server, open `CMSNetworking.h` and remove the comment from on line 3: `//#define KUDAN_SERVER`
 7. The app looks for `test.json` on the server as to where it should find the rest of its data. You can change this to your hearts content. Details on `test.json` are below.
 
-##JSON Details
+## JSON Details
 
 **test.json**  
 
